@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./donations.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title>Donations</title>
+</head>
+<body>
+    <!-- NAVBAR here -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="navlogo">
+                <img src="./pics/logo.jpg" alt="Logo">
+            </div>
+            <div class="hamburger" id="hamb" onclick="toggleNav()"><i class="fa-solid fa-bars"></i></div>
+            <div class="navs" id="navs">
+                <ul type="none" id="abc">
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./index.html">About Us</a></li>
+                    <li><a href="./educator.html">Join Us</a></li>
+                    <li><a href="./Org.html">Organization</a></li>
+                    <li><a href="./contact.html">Contact Us</a></li>
+                    <li> <a href="./donations.html"><button class="btndonate">Donate Now</button></a></li>
+                </ul>
+            </div>
+        </div>
+      </nav>
+      <!--  -->
+    <h1>Support Education</h1> 
+    <h2 class="btc"><i>Be The Change </i></h2>
+   <div class="tee"> At <b>Learning Seeds</b>, we believe in the transformative power of education. Unfortunately, many children and communities lack access to basic educational resources like stationary and books. Your support can make a significant difference in their lives.</div>
+   <div class="main">
+       <h2 class="hee">Why Donate?</h2>
+    <div class="text1">
+    <div class="boxes"><b>Empowerment Through Education:</b> <div class="smol">Providing stationary and books equips children with the tools they need to learn, grow, and succeed.</div></div>
+    <div class="boxes"><b>Breaking the Cycle of Poverty:</b> <div class="smol">Education is a key factor in breaking the cycle of poverty and creating opportunities for a brighter future.</div></div>
+    <div class="boxes"><b>Community Impact:</b> <div class="smol"> Your donation not only benefits individual children but also uplifts entire communities by fostering a culture of learning and development.</div>
+</div> </div>
+<h2 class="hee">How You Can Help:-</h2>
+<div class="text2">
+    <div class="boxes"><b>Donate Stationary:</b><br> <div class="smol">Items such as notebooks, pencils, pens, erasers, rulers, and other stationary supplies are crucial for students to engage effectively in their studies.</div> </div>
+    <div class="boxes"><b>Contribute Books:</b><br> <div class="smol">Books are essential for expanding knowledge and fostering a love for learning. Whether it's textbooks, storybooks, or reference materials, every book counts.</div></div>
+
+    </div>
+</div> 
+</div>
+<div class="non"></div>
+<div class="h"><h2>Donate Now!</h2></div>
+<form>
+    <label for="first-name">First name</label>
+    <input type="text" id="first-name" name="first-name">
+    
+    <label for="surname">Surname</label>
+    <input type="text" id="surname" name="surname">
+    
+    <label for="email">Email Address</label>
+    <input type="text" id="email" name="email">
+    
+    <label for="contact-number">Contact Number</label>
+    <input type="text" id="contact-number" name="contact-number">
+    
+    <label for="organization">Organization or Affiliation (if applicable)</label>
+    <input type="text" id="organization" name="organization">
+    
+    <label>Type of Donation</label><br>
+    <input type="checkbox" id="stationary" name="donation-type" value="Stationary">
+    <label for="stationary">Stationary (Notebooks, pencils, pens, erasers, rulers, etc.)</label><br>
+    
+    <input type="checkbox" id="books" name="donation-type" value="Books">
+    <label for="books">Books (Textbooks, storybooks, reference materials, etc.)</label><br>
+    
+    <input type="checkbox" id="others" name="donation-type" value="Others">
+    <label for="others">Others</label>
+    <input type="text" id="other-description" name="other-description" placeholder="Please specify">
+    
+    <label for="quantity-description">Quantity and Description of Donation</label>
+    <textarea id="quantity-description" name="quantity-description" cols="30" rows="4"></textarea>
+    
+    <label for="address">Your Address</label>
+    <textarea id="address" name="address" cols="30" rows="4"></textarea>
+    
+    <label for="additional-comments">Additional Comments</label>
+    <textarea id="additional-comments" name="additional-comments" cols="30" rows="4"></textarea>
+    
+    <input type="checkbox" id="updates-newsletters" name="updates-newsletters">
+    <label for="updates-newsletters">Would you like to receive updates and newsletters about our organization's work and impact?</label>
+    <br><br>
+    <button type="submit" id="btn">Submit</button>
+</form> 
+<!-- Embedding Google Advertisements using Google Adsense for use of Google Technology -->
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6715118164505559"
+                     crossorigin="anonymous"></script>
+                <!-- adver -->
+<ins class="adsbygoogle"
+        style="display:block"
+        data-ad-client="ca-pub-6715118164505559"
+        data-ad-slot="6099712718"
+        data-ad-format="auto"
+        data-full-width-responsive="true"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+<img src="./pics/samplead.png" class="imgad">
+<footer>
+    <div class="footercontainer">
+    <div class="upper">
+    <div class="contact">
+        <h4>Contact Us</h4>
+        <div class="j"><p>123 Fake Street<br>
+        City, State, Zip Code</p>
+        <p>Tel: +1 (123) 456-7890<br>
+        Tel: +1 (987) 654-3210</p></div>
+    </div>
+    <div class="mappy">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3500.8204553104383!2d77.22985807521862!3d28.
+665094175646985!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd0682f8aa2b%3A0x84c5888a85caa2bd!2sIGD
+TUW%20Auditorium!5e0!3m2!1sen!2sin!4v1708108491361!5m2!1sen!2sin" width="600" height="450" style="border:0;"
+ allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="mappy"></iframe>
+
+</div>
+</div>
+    <div class="lower">
+        <img src="./pics/logo.jpg" alt="" height="100rem" width="120rem">
+        <div class="socialmediaicons">
+                <div class="icon"><a href=""><i class="fa-brands fa-facebook"></i></a></div>
+                <div class="icon"><a href=""><i class="fa-brands fa-instagram"></i></a></div>
+                <div class="icon"><a href=""><i class="fa-brands fa-twitter"></i></a></div>
+                <div class="icon"><a href=""><i class="fa-brands fa-google-plus"></i></a></div>
+                <div class="icon"><a href=""><i class="fa-brands fa-youtube"></i></a></div>
+        </div>
+    </div>
+</div>
+<div class="trademark">
+    © 2024 Learning Seeds
+</div>
+</footer>
+<script>
+function toggleNav() {
+    // var x = document.getElementById("hamb");
+    var y= document.getElementById('abc');
+    if (y.style.display == "none") {
+        y.style.display = "flex";}
+    else {
+        y.style.display = "none";
+    }
+} 
+</script>
+<script>
+    document.getElementById("btn").addEventListener("click", function() {
+        window.scrollTo(0, 0);
+        alert("Your form has been submitted, we'll get back to you soon. Thank you!");
+        })
+</script></body>
+
+    </html> 
+
