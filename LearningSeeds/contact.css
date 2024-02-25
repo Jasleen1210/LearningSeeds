@@ -25,6 +25,16 @@
   }
 
 }
+#tick {
+  margin-left: 57rem;
+  margin-top: 1rem;
+  display:none;
+}
+
+#h5 {
+  margin-left: 60rem;
+  margin-top: -1rem;
+}
 body{
   overflow-x: hidden;
     /* margin-left:2rem; */
@@ -88,14 +98,14 @@ body{
 form{
   text-align: center;
 }
-form button {
+#bttn {
     background-color: #04a471;
     color: #fff;
     border: none;
     padding: 10px 20px;
     border-radius: 5px;
     cursor: pointer;
-    /* margin-left: 46%; */
+    margin-left: 46%;
     /* width:8%;      */
 }
 form button:hover {
