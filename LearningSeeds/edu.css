@@ -10,7 +10,7 @@
   .upper{
       flex-direction: column;
       justify-content: center;
-  }
+  } 
   .contact{
       text-align: center;
       margin: 0;
@@ -127,6 +127,7 @@ body{
     /* border: 5px dashed ivory; */
     padding: 2rem;
     justify-content: space-evenly;
+    transition: 0.5s;
 }
 .boxes:hover {
     transform: scale(1.1);

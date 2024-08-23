@@ -76,7 +76,7 @@ h2{
 .boxes{
     background-color:#005F41;
     /* color: ivory; */
-    /* height: 30rem; */
+    height: 8rem;
     width: 20rem;
     margin: 2rem;
     /* border: 2px solid pink; */
@@ -85,6 +85,10 @@ h2{
     /* border: 5px dashed ivory; */
     padding: 2rem;
     justify-content: space-evenly;
+    transition: 0.5s;
+}
+.boxes:hover{
+  transform: scale(1.05);
 }
 .non{
     height: 5rem;
@@ -103,7 +107,7 @@ h2{
     left: 0;
     width: 0;
     height: 2px;
-    background-color:#04a471;
+    background-color:#005F41;
     transition: width 0.3s ease;
 }
 .h h2:hover::before {
