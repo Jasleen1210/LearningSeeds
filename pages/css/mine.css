@@ -6,7 +6,7 @@ body {
 }
 body{
     /* margin-left:2rem; */
-    background-image: url('./pics/bge.png');
+    background-image: url('/Images/bge.png');
     /* background-size:cover; */
     background-repeat: repeat;  
     font-family: "Poppins", sans-serif;
